@@ -1,0 +1,126 @@
+body{
+   padding-top: 100px;
+   background-color: rgb(24, 27, 45);
+ }
+ .btn-grad {background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%)}
+ .btn-grad {
+ padding: 20px 50px;
+ text-align: center;
+ text-transform: uppercase;
+ transition: 0.5s;
+ background-size: 200% auto;
+ color: white;            
+ border-radius: 30px;
+ border-style: hidden;
+ display: block;
+ font-size: 50px;
+ }
+ 
+ .btn-grad:hover {
+ background-position: right center;
+ color: #fff;
+ text-decoration: none;
+ }
+ 
+ .content{
+   margin: auto;
+   width: 50%;
+ }
+ 
+ .div-button{
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ input::placeholder{
+    color:white;
+ }
+
+ .red{
+   color: red;
+ }
+
+ input{
+    color: white;
+   width: 100%;
+   border-width:0px;
+   border:none;
+   font-size: 50px;
+   background: 
+       linear-gradient(#000, #000) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+    padding-left: 10px;
+   padding-bottom: 10px;
+   margin-bottom: 30px;
+ }
+
+ h1{
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85px;
+
+ }
+
+ input:-webkit-autofill,
+ input:-webkit-autofill:hover, 
+ input:-webkit-autofill:focus,
+ textarea:-webkit-autofill,
+ textarea:-webkit-autofill:hover,
+ textarea:-webkit-autofill:focus,
+ select:-webkit-autofill,
+ select:-webkit-autofill:hover,
+ select:-webkit-autofill:focus {
+   -webkit-text-fill-color: white;
+   transition: background-color 5000s ease-in-out 0s;
+ }
+ select{
+    color:white;
+   width: 100%;
+   border-width:0px;
+   border:none;
+   font-size: 50px;
+   background: 
+       linear-gradient(#000, #000) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+    padding-left: 10px;
+   padding-bottom: 10px;
+ }
+ option{
+    background-color:rgb(24, 27, 45);
+ }
+
+ 
+ select:focus,input:focus{
+    outline: none;
+   background: 
+   linear-gradient(#24C6DC,#24C6DC) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+ }
+ 
+ .btn-grad:focus{
+   outline: none;
+ 
+ }
+ .btn-grad:active{
+   padding: 18px 48px;
+ }
+ 
+ select:hover,input:hover{
+   background: 
+   linear-gradient(#24C6DC,#24C6DC) center bottom 5px /calc(100% - 10px) 2px no-repeat;
+ }
+ 
+ table,th{
+    border: 1px solid rgba(255, 255, 255, 0.336);
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ tr{
+    background-color:rgb(16, 18, 29);;
+ }
+
+ p{
+   color: white;
+   text-align: center;
+ }

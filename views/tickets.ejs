@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/basic-styles.css">
+   <title>Tickets</title>
+</head>
+<body>
+
+   </form>
+   <table> 
+      <tr>
+      <th>Ticket Id</th>
+      <th>User Id</th>
+      <th>Ticket name</th>
+      <th>Priority</th>
+      <th>Date</th>
+    </tr>
+   <% tickets.forEach(ticket => {%>
+      <tr>
+         <td><%= ticket._id %></td>
+         <td><%= ticket.userId %></td>
+         <td><%= ticket.ticket %></td>
+         <td><%= ticket.priority %></td>
+         <td><%= ticket.createdAt %></td>
+       </tr>
+   <% }) %>
+   </table>
+   <p>Queries:SORT(createdAt desc/asc),userId,priority</p>
+</body>
+</html>
